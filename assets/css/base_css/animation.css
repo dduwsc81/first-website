@@ -1,0 +1,85 @@
+@keyframes appear {
+     from{
+          opacity: 0;
+     }
+     to{
+          opacity: 1;
+     }
+}
+@keyframes disappear{
+     from{
+          opacity: 1;
+     }
+     to {
+          opacity: 0;
+     }
+}
+@keyframes growUp-mini{
+     from{
+          opacity: 0.5;
+          transform: scale(.8);
+     }
+     to{
+          opacity: 1;
+          transform: scale(1);
+     }
+}
+@keyframes growUp-little {
+     from{
+          transform: scale(1);
+     }
+     to{
+          transform: scale(1.1);
+     }
+}
+@keyframes growUp-medium {
+     from{
+          transform: scale(1);
+     }
+     to{
+          transform: scale(1.25);
+     }
+}
+@keyframes slideRight{
+     from{
+          transform: scaleX(0);
+     }
+     to{
+          transform: scaleX(1);
+     }
+}
+@keyframes slideDown {
+     from {
+          transform: scale(0);
+     }
+     to {
+          transform: scale(1);
+     }
+}
+
+@keyframes slideFromLeft{
+     100% { left: 24px;}
+}
+
+@keyframes slideFromRight{
+     100% { right: 24px;}
+}
+@keyframes dropDown{
+     from{
+          opacity: 0.5;
+          transform: scaleY(0);
+     }
+     to{
+          opacity: 1;
+          transform: scaleY(1);
+     }
+}
+
+@keyframes  rotate90 {
+     from{
+          transform: rotate(0);
+     }
+     to{
+          transform: rotate(90deg);
+     }
+}

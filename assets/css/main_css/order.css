@@ -1,0 +1,308 @@
+
+
+
+
+.order{
+     position: relative;
+     
+}
+.order__title{
+     margin-top: 24px;
+     margin-bottom: 18px;
+}
+.order__title-text{
+     font-size: 2.8rem;
+}
+.order__main{
+     position: relative;
+     display: flex;
+     justify-content: space-between;
+}
+.order__info{
+     flex: 1;
+     margin-right: 34px;
+     
+}
+.order__customer-info{
+     background-color: var(--white-color);
+     padding: 18px 24px 24px 24px;
+     border-radius: 12px;
+     box-shadow: 0px 0px 12px rgb(0 0 0 / 6%);
+}
+.order__customer-info-title{
+     color: var(--text-color);
+}
+.order__customer-info-title-icon{
+     font-size: 1.8rem;
+     margin-right: 8px;
+}
+.order__customer-info-title-text{
+     font-size: 2rem;
+     font-weight: 700;
+}
+.order__customer-input{
+     display: flex;
+     justify-content: space-between;
+     margin-top: 16px;
+}
+.order__customer-name{
+     font-size: 1.4rem;
+     font-weight: 600;
+     color: #777;
+     flex: 1;
+}
+.order__customer-info-name-input{
+     margin-top: 8px;
+     padding: 12px;
+     width: 340px;
+     height: 48px;
+     font-size: 1.6rem;
+     border-radius: 12px;
+     border: 1px solid #ccc;
+}
+.order__customer-phone{
+     font-size: 1.4rem;
+     font-weight: 600;
+     color: #777;
+     flex: 1;
+}
+.order__customer-phone-input{
+     margin-top: 8px;
+     padding: 12px;
+     width: 340px;
+     height: 48px;
+     font-size: 1.6rem;
+     border-radius: 12px;
+     border: 1px solid #ccc;
+}
+.order__customer-phone-input:focus,
+.order__customer-info-name-input:focus{
+     border: none;
+     outline: 2px solid var(--main-color-dark);
+     background-color: #F1F8FC;
+}
+.order__customer-phone-input::-webkit-outer-spin-button,
+.order__customer-phone-input::-webkit-inner-spin-button{
+     -webkit-appearance: none;
+     margin: 0;
+}
+.order__place-info{
+     margin-top: 24px;
+     background-color: var(--white-color);
+     padding: 18px 24px 24px 24px;
+     border-radius: 12px;
+     box-shadow: 0px 0px 12px rgb(0 0 0 / 6%);
+}
+.order__place-info-title{
+     color: var(--text-color);
+
+}
+.order__place-info-title-icon{
+     font-size: 1.8rem;
+     margin-right: 8px;
+}
+.order__place-info-title-text{
+     font-size: 2rem;
+     font-weight: 700;
+}
+.order__place-position{
+
+}
+.order__position-text{
+     font-size: 1.8rem;
+     font-weight: 600;
+     margin-top: 22px;
+}
+.order__place-position-1{
+     display: flex;
+     justify-content: space-between;
+}
+.order__place-position-item{
+     margin-right: 8px;
+     cursor: pointer;
+}
+.order__place-position-main{
+     display: flex;
+     /* align-items: center; */
+     padding: 14px;
+     border-radius: 12px;
+     border: 1px solid #ccc;
+     width: 370px;
+     cursor: pointer;
+}
+.order__place-position-label{
+     font-size: 1.6rem;
+     font-weight: 600;
+     line-height: 100%;
+     cursor: pointer;
+}
+.order__payment{
+     margin-top: 24px;
+     background-color: var(--white-color);
+     padding: 18px 24px 24px 24px;
+     border-radius: 12px;
+     box-shadow: 0px 0px 12px rgb(0 0 0 / 6%);
+}
+.order__payment-title{
+     color: var(--text-color);
+}
+.order__payment-title-icon{
+     font-size: 1.8rem;
+     margin-right: 8px;
+}
+.order__payment-title-text{
+     font-size: 2rem;
+     font-weight: 700;
+}
+.order__payment-list{
+     margin-top: 18px;
+}
+.order__payment-item{
+     display: flex;
+     align-items: center;
+}
+.order__payment-item + .order__payment-item{
+     margin-top: 16px;
+}
+.order__payment-item-input{
+
+}
+.order__payment-item>label{
+     margin-left: 12px;
+     font-size: 1.6rem;
+     font-weight: 500;
+}
+
+
+
+
+.order__total{
+     width: 360px;
+     height: 330px;
+     background-color: var(--white-color);
+     padding: 18px 14px;
+     border-radius: 12px;
+     box-shadow: 0px 0px 12px rgb(0 0 0 / 6%);
+     position: sticky;
+     top: 100px;
+     left: 0;
+     right: 0;
+     bottom: 0;
+}
+.order__bill-title{
+
+}
+.order__bill-title-icon{
+     font-size: 1.6rem;
+}
+.order__bill-title-text{
+     font-size: 1.8rem;
+     margin-left: 8px;
+     font-weight: 700;
+     color: var(--text-color);
+     cursor: default;
+}
+.order__bill-price{
+     margin-top: 24px;
+     display: flex;
+     justify-content: space-between;
+     color: var(--text-color);
+     /* padding: 12px 0; */
+     font-weight: 500;
+}
+.order__bill-price-text{
+     font-size: 1.6rem;
+}
+.order__bill-price-number{
+     font-size: 1.6rem;
+}
+.order__bill-sale{
+     margin-top: 22px;
+     display: flex;
+     justify-content: space-between;
+     color: var(--text-color);
+     /* padding: 12px 0; */
+     font-weight: 500;
+}
+.order__bill-sale-text{
+     font-size: 1.6rem;
+}
+.order__bill-sale-number{
+     font-size: 1.6rem;
+}
+.order__bill-ship{
+     margin-top: 22px;
+     display: flex;
+     justify-content: space-between;
+     color: var(--text-color);
+     /* padding: 12px 0; */
+     font-weight: 500;
+     /* margin-bottom: 12px; */
+}
+.order__bill-ship-text{
+     font-size: 1.6rem;
+     position: relative;
+}
+.order__bill-ship-text::before{
+     content: "Miễn phí khi thanh toán trước";
+     position: absolute;
+     top: 100%;
+     width: 220px;
+     color: #0B9574;
+     font-size: 1.2rem;
+     font-weight: 700;
+}
+.order__bill-ship-number{
+     font-size: 1.6rem;
+}
+.order__bill-total{
+     margin-top: 26px;
+     display: flex;
+     justify-content: space-between;
+     color: var(--text-color);
+     font-size: 1.6rem;
+     padding: 18px 0;
+     border-bottom: 1px solid;
+     border-top: 1px dashed;
+     border-color: #ccc;
+     font-weight: 500;
+}
+.order__bill-total-text{
+     font-size: 1.6rem;
+}
+.order__bill-total-number{
+     font-size: 1.6rem;
+}
+.order__bill-order{
+     margin-top: 12px;
+     display: flex;
+     justify-content: center;
+}
+.order__bill-order-btn{
+     margin-top: 12px;
+     background-color: var(--button-color);
+     border: none;
+     outline: none;
+     height: 48px;
+     width: 330px;
+     color: var(--white-color);
+     font-size: 1.6rem;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     font-weight: 600;
+     border-radius: 10px;
+     cursor: pointer;
+}
+.order__bill-order-btn-icon{
+     margin-left: 8px;
+}
+.order__bill-order-btn:hover{
+     background-color: var(--button-hover-color);
+}
+.order__line{
+     margin-top: 44px;
+     border: none;
+     border-bottom: 1px solid;
+     border-color: transparent transparent #ccc transparent;
+}

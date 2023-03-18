@@ -1,0 +1,111 @@
+
+.form__bill-id,
+.form__bill-customer-id,
+.form__bill-order-date,
+.form__bill-product,
+.form__bill-price,
+.form__bill-status{
+     display: flex;
+     flex-direction: column;
+}
+.form__bill-id-title,
+.form__bill-customerId-title,
+.form__bill-order-date-title,
+.form__bill-productId-title,
+.form__bill-price-title,
+.form__bill-status-title{
+     font-size: 1.6rem;
+     color: #8D8D8D;
+     font-weight: 600;
+}
+.form__bill-id-input,
+.form__bill-customerId-input,
+.form__bill-order-date-input,
+.form__bill-productId-input,
+.form__bill-price-input,
+.form__bill-status-sl{
+     margin-top: 12px;
+     height: 28px;
+     padding: 6px 12px;
+     font-size: 1.4rem;
+     outline: none;
+     border-radius: 12px;
+     border: 1px solid #7FACD6;
+     width: 360px;
+}
+
+.form__bill-id-input:focus,
+.form__bill-customerId-input:focus,
+.form__bill-order-date-input:focus,
+.form__bill-productId-input:focus,
+.form__bill-price-input:focus,
+.form__bill-status-sl:focus{
+     border: 2px solid #33539E;
+     background-color: #7facd634;
+}
+.form__bill-customer-id{
+
+}
+.form__bill-customerId-title{
+     margin-top: 16px;
+}
+.form__bill-customerId-input{
+
+}
+.form__customerId-validate{
+
+}
+.form__bill-order-date{
+
+}
+.form__bill-order-date-title{
+     margin-top: 16px;
+}
+.form__bill-order-date-input{
+
+}
+.form__bill-product{
+
+}
+.form__bill-productId-title{
+     margin-top: 16px;
+}    
+.form__bill-productId-input{
+
+}
+.form__bill-price{
+
+}
+.form__bill-price-title{
+     margin-top: 16px;
+}
+.form__bill-price-input{
+
+}
+.form__bill-status{
+
+}
+.form__bill-status-title{
+     margin-top: 16px;
+}
+.form__bill-status-sl{
+     height: 46px;
+     position: relative;
+     padding-right: 12px;
+}
+.form__bill-status-sl::-ms-expand{
+     position: absolute;
+     right: 22px;
+}
+.form__category-check{
+
+}
+.form__bill-btn{
+     margin-top: 16px;
+}
+.form__input-btn{
+
+}
+.form__bill-btn.form__input-btn{
+
+}
